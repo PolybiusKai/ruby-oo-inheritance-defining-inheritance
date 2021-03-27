@@ -8,7 +8,7 @@ describe "Vehicle" do
       expect{Vehicle.new("large", 4)}.to_not raise_error
     end
   end
-
+ 
   describe "#wheel_size" do 
     it "has a wheel_size" do
       vehicle.wheel_size = "small"
